@@ -8,7 +8,7 @@ export default class Auth {
     domain: 'dev-deiz-ep3.auth0.com',
     clientID: '0pqGrrQRAVBCKmpo5xahtjU5p0Gzcw12',
     redirectUri: process.env.NODE_ENV === 'development' ? 'http://localhost:3000/callback' : 'https://romkravets.github.io/to-do-app/callback',
-    audience: 'https://divyanshu.auth0.com/userinfo',
+    audience: 'https://dev-deiz-ep3.auth0.com/userinfo',
     responseType: 'token id_token',
     scope: 'openid'
   });
